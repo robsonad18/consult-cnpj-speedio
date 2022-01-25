@@ -10,4 +10,4 @@ if (empty($result)) die("Problemas ao consultas CNPJ");
 
 if (isset($result['error'])) die($result['error']);
 
-echo '<pre>'; print_r($result); echo '</pre>'; exit;
+print_r($result);
